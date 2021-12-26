@@ -13,7 +13,7 @@ public class TrippExamen {
         while (i >0) {
             text = "Test " + i;
             System.out.println(text);
-            //lcd_gpio_Handler.writeLineWithDate(text);
+            lcd_gpio_Handler.writeLineWithDate(text);
             i -= 1;
         }
         Thread.sleep(4000);
